@@ -1,5 +1,5 @@
 # Imagen base oficial de Python
-FROM python:3.11-slim
+FROM python:3.10.12-slim
 
 # Instalar dependencias del sistema necesarias para matplotlib y fonts
 RUN apt-get update && apt-get install -y \
